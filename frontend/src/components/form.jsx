@@ -34,7 +34,7 @@ const Form=()=>{
     function handleClick(event){
         event.preventDefault();
         const postData=async()=>{
-            const response=await axios.post('http://localhost:3000/item',obj);
+            const response=await axios.post('https://expensetracker-hl42.onrender.com/item',obj);
             setResult(response.data);
             setAmount(response.data.totalAmount);
             setObj({
@@ -48,7 +48,7 @@ const Form=()=>{
     function deleteAll(event){
         event.preventDefault();
         const deleteItem=async()=>{
-            const response = await axios.delete(`http://localhost:3000/delete`);
+            const response = await axios.delete(`https://expensetracker-hl42.onrender.com/delete`);
             setResult(response.data);
         }
         deleteItem();
