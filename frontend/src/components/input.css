@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    margin-bottom: 0.1em;
+}
+
+input[type="text"]{
+    border-radius: 0.5em;
+    margin-bottom: 1.3em;
+    height: 2.5em;
+    padding: 0 0.5em;
+    border: 0.1em solid rgb(225, 218, 218);
+}
+
+input[type="text"]:focus{
+    outline: none;
+}

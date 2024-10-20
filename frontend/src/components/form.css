@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-container{
+    width: 55%;
+    height: auto;;
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 0.6em;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 1.5em 0;
+}
+
+.form-container form label{
+    font-weight: 600;
+}
+
+.form-container form .btn-container{
+    display: flex;
+
+    margin-bottom: 1.4em;
+}
+
+.form-container form .btn-container button{
+    margin-right: 1em;
+    height: 2.5em;
+    width: 7.5em;
+    color: white;
+    background-color: rgb(53, 53, 237);
+    font-weight: bolder;
+    border: none;
+    border-radius: 0.4em;
+}
+
+.form-container form .result-container ul li{
+    list-style-type: none;
+    margin-bottom: 0.3em;
+    padding-left: 0.5rem;
+    height: 3em;
+    background-color: rgb(229, 226, 226);  
+    font-weight: 650;
+    border-radius: 0.5em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-container form .result-container ul{
+    margin-bottom: 1em;
+}
+
+.form-container form .amt{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 1.5em;
+}
